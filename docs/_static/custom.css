@@ -1,0 +1,22 @@
+/* notfallmedizin documentation custom styles */
+/* Copyright 2026 Gustav Olaf Yunus Laitinen-Fredriksson Lundström-Imanov */
+
+.wy-side-nav-search {
+    background-color: #2980b9;
+}
+
+.wy-nav-top {
+    background-color: #2980b9;
+}
+
+/* Code and API emphasis */
+dl.class dt,
+dl.function dt,
+dl.method dt {
+    border-left: 3px solid #2980b9;
+}
+
+/* References and glossary */
+.glossary term {
+    font-weight: 600;
+}

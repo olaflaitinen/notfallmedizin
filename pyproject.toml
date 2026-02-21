@@ -1,0 +1,119 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel>=0.41.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "notfallmedizin"
+version = "0.1.0"
+description = "A comprehensive Python library integrating Emergency Medicine (EM) with Artificial Intelligence (AI) for clinical decision support, predictive analytics, and real-time patient monitoring."
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.9"
+authors = [
+    {name = "Gustav Olaf Yunus Laitinen-Fredriksson Lundström-Imanov"},
+]
+keywords = [
+    "emergency-medicine",
+    "artificial-intelligence",
+    "clinical-decision-support",
+    "triage",
+    "medical-imaging",
+    "patient-monitoring",
+    "predictive-analytics",
+    "clinical-scoring",
+    "pharmacology",
+    "trauma",
+    "cardiac",
+    "sepsis",
+    "nlp",
+    "time-series",
+    "survival-analysis",
+    "benchmarking",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Healthcare Industry",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Typing :: Typed",
+]
+dependencies = [
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "pandas>=2.0.0",
+    "scikit-learn>=1.3.0",
+]
+
+[project.optional-dependencies]
+imaging = [
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "Pillow>=10.0.0",
+]
+nlp = [
+    "transformers>=4.30.0",
+    "tokenizers>=0.13.0",
+]
+timeseries = [
+    "statsmodels>=0.14.0",
+]
+full = [
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "Pillow>=10.0.0",
+    "transformers>=4.30.0",
+    "tokenizers>=0.13.0",
+    "statsmodels>=0.14.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "pytest-benchmark>=4.0.0",
+    "mypy>=1.5.0",
+    "ruff>=0.1.0",
+    "sphinx>=7.0.0",
+    "sphinx-rtd-theme>=1.3.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/olaflaitinen/notfallmedizin"
+Documentation = "https://notfallmedizin.readthedocs.io"
+Repository = "https://github.com/olaflaitinen/notfallmedizin"
+Issues = "https://github.com/olaflaitinen/notfallmedizin/issues"
+
+[tool.setuptools.packages.find]
+include = ["notfallmedizin*"]
+
+[tool.ruff]
+line-length = 99
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "D", "UP"]
+ignore = ["D100", "D104"]
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--strict-markers -v"
+markers = [
+    "slow: marks tests as slow",
+    "benchmark: marks benchmark tests",
+]
