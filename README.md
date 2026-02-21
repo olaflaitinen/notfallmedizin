@@ -1,35 +1,27 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/notfallmedizin-Emergency%20Medicine%20%2B%20AI-2980b9?style=for-the-badge" alt="notfallmedizin" />
-</p>
-
-<p align="center">
-  <a href="https://pypi.org/project/notfallmedizin/"><img src="https://img.shields.io/pypi/v/notfallmedizin?style=flat-square" alt="PyPI version" /></a>
-  <a href="https://pypi.org/project/notfallmedizin/"><img src="https://img.shields.io/pypi/pyversions/notfallmedizin?style=flat-square" alt="Python versions" /></a>
-  <a href="https://pypi.org/project/notfallmedizin/"><img src="https://img.shields.io/pypi/dm/notfallmedizin?style=flat-square" alt="PyPI downloads" /></a>
-  <a href="https://pypi.org/project/notfallmedizin/"><img src="https://img.shields.io/pypi/l/notfallmedizin?style=flat-square" alt="License" /></a>
-  <a href="https://github.com/olaflaitinen/notfallmedizin"><img src="https://img.shields.io/github/repo-size/olaflaitinen/notfallmedizin?style=flat-square" alt="Repo size" /></a>
-  <a href="https://github.com/olaflaitinen/notfallmedizin/issues"><img src="https://img.shields.io/github/issues/olaflaitinen/notfallmedizin?style=flat-square" alt="Open issues" /></a>
-  <a href="https://github.com/olaflaitinen/notfallmedizin"><img src="https://img.shields.io/github/last-commit/olaflaitinen/notfallmedizin?style=flat-square" alt="Last commit" /></a>
-  <a href="https://github.com/olaflaitinen/notfallmedizin/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square" alt="Apache 2.0" /></a>
-  <img src="https://img.shields.io/badge/Python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-3776ab?style=flat-square&logo=python" alt="Python 3.9+" />
-  <img src="https://img.shields.io/badge/Code%20style-Ruff-000000?style=flat-square" alt="Ruff" />
-  <img src="https://img.shields.io/badge/Type%20checker-mypy-blue?style=flat-square" alt="mypy" />
-  <img src="https://img.shields.io/badge/Tests-pytest-0A9EDC?style=flat-square&logo=pytest" alt="pytest" />
-  <img src="https://img.shields.io/badge/Docs-Sphinx%20%7C%20RTD-0A9EDC?style=flat-square" alt="Sphinx" />
-  <img src="https://img.shields.io/badge/Status-Beta-yellow?style=flat-square" alt="Beta" />
-  <img src="https://img.shields.io/badge/Platform-OS%20Independent-lightgrey?style=flat-square" alt="Platform" />
-  <img src="https://img.shields.io/badge/PEP%20561-typed-green?style=flat-square" alt="PEP 561" />
-  <img src="https://img.shields.io/badge/Modules-13%20%7C%2057%20submodules-2980b9?style=flat-square" alt="Modules" />
-</p>
-
----
-
 # notfallmedizin
+
+[![PyPI version](https://img.shields.io/pypi/v/notfallmedizin)](https://pypi.org/project/notfallmedizin/)
+[![Python 3.9+](https://img.shields.io/pypi/pyversions/notfallmedizin)](https://pypi.org/project/notfallmedizin/)
+[![License](https://img.shields.io/github/license/olaflaitinen/notfallmedizin)](https://github.com/olaflaitinen/notfallmedizin/blob/main/LICENSE)
+[![Downloads](https://img.shields.io/pypi/dm/notfallmedizin)](https://pypi.org/project/notfallmedizin/)
+[![Repo size](https://img.shields.io/github/repo-size/olaflaitinen/notfallmedizin)](https://github.com/olaflaitinen/notfallmedizin)
+[![Open issues](https://img.shields.io/github/issues/olaflaitinen/notfallmedizin)](https://github.com/olaflaitinen/notfallmedizin/issues)
+[![Last commit](https://img.shields.io/github/last-commit/olaflaitinen/notfallmedizin)](https://github.com/olaflaitinen/notfallmedizin/commits/main)
+[![Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Python](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-3776ab?logo=python)](https://www.python.org/)
+[![Code style: Ruff](https://img.shields.io/badge/code%20style-Ruff-000000)](https://github.com/astral-sh/ruff)
+[![mypy](https://img.shields.io/badge/type%20checker-mypy-blue)](http://mypy-lang.org/)
+[![pytest](https://img.shields.io/badge/tests-pytest-0A9EDC?logo=pytest)](https://pytest.org/)
+[![Sphinx](https://img.shields.io/badge/docs-Sphinx%20%7C%20Read%20the%20Docs-0A9EDC)](https://notfallmedizin.readthedocs.io)
+[![Status](https://img.shields.io/badge/status-beta-yellow)](https://github.com/olaflaitinen/notfallmedizin)
+[![Platform](https://img.shields.io/badge/platform-OS%20Independent-lightgrey)](https://github.com/olaflaitinen/notfallmedizin)
+[![PEP 561](https://img.shields.io/badge/PEP%20561-typed-green)](https://www.python.org/dev/peps/pep-0561/)
+[![Modules](https://img.shields.io/badge/modules-13%20%7C%2057%20submodules-2980b9)](https://github.com/olaflaitinen/notfallmedizin/tree/main/notfallmedizin)
 
 **Emergency Medicine meets Artificial Intelligence.** A comprehensive Python library for clinical decision support, predictive analytics, and real-time patient monitoring in the emergency department.
 
-| | |
-|---|---|
+| Field | Value |
+|-------|-------|
 | **Author** | Gustav Olaf Yunus Laitinen-Fredriksson Lundström-Imanov |
 | **Copyright** | 2026 |
 | **Repository** | [github.com/olaflaitinen/notfallmedizin](https://github.com/olaflaitinen/notfallmedizin) |
@@ -387,6 +379,8 @@ $$
 | **Sections** | Installation, Quick start, Module overview, API reference, References, Glossary, License, Disclaimer |
 | [CHANGELOG.md](CHANGELOG.md) | Version history |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution guidelines |
+| [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Community guidelines |
+| [SECURITY.md](SECURITY.md) | Security policy and reporting |
 | [AUTHORS](AUTHORS) | Author and copyright |
 
 ---
@@ -406,8 +400,8 @@ $$
 
 ## Author and license
 
-| | |
-|---|---|
+| Field | Value |
+|-------|-------|
 | **Author** | Gustav Olaf Yunus Laitinen-Fredriksson Lundström-Imanov |
 | **License** | Apache License 2.0. See [LICENSE](LICENSE). |
 | **Repository** | [github.com/olaflaitinen/notfallmedizin](https://github.com/olaflaitinen/notfallmedizin) |

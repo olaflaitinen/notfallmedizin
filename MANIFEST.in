@@ -3,8 +3,12 @@ include README.md
 include CHANGELOG.md
 include AUTHORS
 include CONTRIBUTING.md
+include CODE_OF_CONDUCT.md
+include SECURITY.md
 include requirements.txt
 include setup.py
+include pyproject.toml
+include .readthedocs.yaml
 recursive-include notfallmedizin *.py py.typed
-recursive-include docs *.rst *.py *.md *.txt
+recursive-include docs *.rst *.py *.md *.txt *.css *.html
 recursive-exclude docs _build

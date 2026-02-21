@@ -17,6 +17,8 @@ Thank you for your interest in contributing to notfallmedizin.
 - **License:** Apache-2.0  
 - **Repository:** [github.com/olaflaitinen/notfallmedizin](https://github.com/olaflaitinen/notfallmedizin)
 
+By participating, you agree to uphold our [Code of Conduct](CODE_OF_CONDUCT.md). Security issues: see [SECURITY.md](SECURITY.md).
+
 ## Development setup
 
 ```bash
